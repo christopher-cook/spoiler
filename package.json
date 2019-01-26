@@ -1,0 +1,25 @@
+{
+  "name": "spoiler",
+  "version": "1.0.0",
+  "node": "11.4.0",
+  "description": "movie critique app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopher-cook/spoiler.git"
+  },
+  "author": "C Cook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopher-cook/spoiler/issues"
+  },
+  "homepage": "https://github.com/christopher-cook/spoiler#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
