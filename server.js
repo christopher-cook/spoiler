@@ -8,6 +8,15 @@ const app = express();
 // const db = mongoose.connection;
 //
 //
+app.get('/', (req, res) => {
+  console.log("Good start to the project");
+});
+
+
+
+
+
+
 
 app.listen(3000, () => {
   console.log('listening...');
