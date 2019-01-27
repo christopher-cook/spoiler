@@ -6,5 +6,21 @@
   </head>
   <body>
     <h1>&#161;Spoiler!</h1>
+      <% for (let i = 0; i < movies.length; i++) {%>
+        <ul>
+          <li>
+              <a href="/movies/<%=movies[i].id%>"><%=movies[i].name%></a><br />
+              Last edited by: <br />
+              <a href="/movies/<%=movies[i].id%>/edit"><button>Edit</button></a>
+
+              <form action="/movies/<%=movies[i].id%>?_method=DELETE" method="POST">
+              <input type="submit" value="DELETE">
+              </form>
+          </li>
+        </ul>
+      <%}%>
+      <div class="addmovie">
+        <a href="/movies/new"><button>Add Movie</button></a>
+      </div>
   </body>
 </html>

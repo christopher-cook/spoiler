@@ -6,6 +6,13 @@
     <title></title>
   </head>
   <body>
-    <h1>Edit Route</h1>
+    <h1>Add New Movie</h1>
+    <form action="/movies" method="POST">
+      Name: <input type="text" name="name" /><br />
+      Synopsis: <input type="text" name="synop" /><br />
+      Favorite Actor/Actress: <input type="text" name="favActor" /><br />
+      Rating: <input type="number" name="rating" /><br />
+      <input type="submit" value="SUBMIT" />
+    </form>
   </body>
 </html>

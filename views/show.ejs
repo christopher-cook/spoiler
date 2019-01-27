@@ -5,6 +5,12 @@
     <title></title>
   </head>
   <body>
-    <h1>Show Route</h1>
+    <h1><%=movies.name%></h1>
+    <ul>
+      <li><h3>Synopsis:</h3><%=movies.synop%></li>
+      <li><h3>Favorite Actor/Actress:</h3><%=movies.favActor%></li>
+      <li><h3>Rating:</h3><%=movies.rating%>
+    </ul>
+    <a href="/movies"><button>Back to Movies</button></a>
   </body>
 </html>
