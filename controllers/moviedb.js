@@ -34,7 +34,6 @@ router.get('/seed', (req, res) => {
 
   //Delete Route
   router.delete('/:id', (req, res) => {
-      console.log(req.params.id);
     Movie.findByIdAndDelete(req.params.id, (err, deleteMovie) => {
       res.redirect('/movies');
     });
