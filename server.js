@@ -1,6 +1,9 @@
 
 //Dependencies
 //
+// const jquery = require('jquery');
+// app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist/'));
+
 const express = require('express');
 const app = express();
 const methodOverride = require('method-override');
