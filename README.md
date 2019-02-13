@@ -12,20 +12,13 @@
   <li><a href="https://www.mongodb.com">MongoDB</a></li>
   <li><a href="https://expressjs.com">Express</a></li>
   <li><a href="https://angularjs.org">Angular</a></li>
-  <li><a href="#">Google Embed API</a></li>
+  <li>Maps Embed API</li>
 
 <h2>Approach</h2>
------
--trello setup/use
--wireframe to start project
-  - link pictures
-- delegation/meetups
+<hr>
+<p>During initial setup the team took advantage of Trello to manage task creations, member assignment and track current status. Both handwritten and digital Adobe based wireframes were designed as shown below... </p>
 
-### Site Information
------
+<h2>Site Information</h2>
+<hr>
 [Routr](https://routr-app.herokuapp.com/)
 
-## Problems to be addressed
------
-- list bugs/occasional errors (cors?)
-- discuss reach goals for next steps (auth - password reset)
